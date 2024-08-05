@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font aweasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- aimate.css -->
+    <link rel="stylesheet" href="css/animate.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- responsive web page -->
+    <link rel="stylesheet" href="css/RWP.CSS" />
+    <title>Plastic Recycling</title>
+  </head>
+  <body>
+    <nav
+    class="navbar navbar-expand-lg w-90 py-1 d-flex flex-column screan-nav"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/LOGO.svg" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 gap-3">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-26 fw-medium nav-footer-link"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-26 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Categories.html"
+              >Wastes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-26 fw-medium nav-footer-link"
+              aria-current="page"
+              href="About Us.html"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-26 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Knowledge.html"
+              >Knowledge</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="d-flex align-items-center gap-5">
+        <a href="Cart.html"><img src="images/Icons/Cart.svg" class="cursor" alt="" /></a>
+        <div class="Victor-img-border cursor">
+          <a href="Profile01.html"><img src="images/profile.svg" class="Victor-img" alt="" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="line"></div>
+  </nav>
+  <nav
+    class="navbar navbar-expand-lg w-90 py-1 d-flex flex-column mobile-nav"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/LOGO.svg" class="logo" alt="" />
+      </a>
+
+      <input     
+        class="navbar-toggler"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation" id="checkbox2" type="checkbox">
+      <label class="toggle toggle2" for="checkbox2">
+        <div id="bar4" class="bars"></div>
+        <div id="bar5" class="bars"></div>
+        <div id="bar6" class="bars"></div>
+      </label>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul
+          class="navbar-nav m-auto mb-2 mb-lg-0 gap-1 bg-overlay py-2 d-flex flex-column align-items-center justify-content-center rounded-4"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Categories.html"
+              >Wastes</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="About Us.html"
+              >About us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Knowledge.html"
+              >Knowledge</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Cart.html"
+              >Cart</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active text-light-grean font-20 fw-medium nav-footer-link"
+              aria-current="page"
+              href="Profile01.html"
+              ><img src="images/profile.svg" class="Victor-img" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="line"></div>
+  </nav>
+
+    <!-- Cart-->
+    <section class="w-90 form m-auto pb-4 wow bounceIn mt-5">
+      <div class="d-flex flex-column align-items-center w-fit m-auto gap-0">
+        <h3 class="text-dark-grean font-32 fw-bold m-0 p-0">
+          <i>Plastic Recycling</i>
+        </h3>
+        <span class="line2 mt-1 w-100 p-0 m-0"></span>
+      </div>
+
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-8 d-flex mt-5">
+          <img src="images/Plastic Recycling.png" class="w-100" alt="" />
+        </div>
+
+        <p class="text-dark-grean font-32 fw-bold w-80  font-32-sm mt-5 text-center">
+          Plastic is one of the world’s most-used materials. Technically
+          sophisticated, lightweight and cheap, plastics suit a broad spectrum
+          of uses. The problem with plastic lies not in how it is used, which is
+          generally harmless, but in end-of-life management of products made
+          from it. Since 1950, close to half of all plastic has ended up in
+          landfill or dumped in the wild, and only 9% of used plastic has been
+          adequately recycled. Every year, it is estimated that 4 to 12 million
+          metric tons of plastic waste ends up in the oceans1. How plastic waste
+          is processed remains extremely variable from country to country, and
+          recycling remains considerably under-used. On the one hand, developed
+          economies with regulations that encourage it have recycling rates
+          around 30%. On the other hand, developing economies with a minimal
+          industrial base have recycling rates close to 0%. And yet recycling is
+          the best solution for processing plastic waste because it limits
+          environmental impact and generates signifi cant socioeconomic gains.
+          However, at every stage of the plastic life cycle, there remain a
+          large number of impediments to the development of recycling. By taking
+          steps to promote recycling, manufacturers of plastic products,
+          regulators, waste managers and consumers can all exert signifi cant
+          infl uence on the development of the recycling sector.
+        </p>
+      </div>
+    </section>
+
+    <footer class="bg-light-grean-overlay mt-5 pb-3">
+      <div class="row w-98 g-3 footer">
+        <div class="col-lg-4">
+          <div class="mb-2">
+            <img src="images/footlogo.svg" class="" alt="" />
+          </div>
+          <div class="ms-lg-5 ps-lg-4 left-footer">
+            <p class="font-20 text-dark-grean fw-semibold font-15">
+              Recyco is an Egyptian website that working in waste management
+              field.
+            </p>
+            <ul class="list-unstyled">
+              <li
+                class="font-24 d-flex align-items-center justify-content-start gap-3 font-15"
+              >
+                <span class="text-dark-grean fw-bold">Call us :</span>
+                <span class="text-dark-grean">01212587946</span>
+              </li>
+              <li
+                class="font-24 d-flex align-items-center justify-content-start gap-4 font-15"
+              >
+                <span class="text-dark-grean fw-bold">Email : </span>
+                <span class="ms-1 text-dark-grean">Recyco@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-8 d-flex align-items-center">
+          <div class="row w-100">
+            <div class="col-md-4">
+              <div>
+                <h2
+                  class="fw-bold font-24 text-dark-grean footer-border font-15"
+                >
+                  Recyco
+                </h2>
+
+                <ul class="list-unstyled mt-3">
+                  <li class="font-20 text-dark-grean font-15">
+                    <a
+                      href=""
+                      class="nav-footer-link text-dark-grean text-decoration-none"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="font-20 text-dark-grean font-15">
+                    <a
+                      href=""
+                      class="nav-footer-link text-dark-grean text-decoration-none"
+                    >
+                      Privacy & Policy</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <h2
+                  class="fw-bold font-24 text-dark-grean footer-border font-15"
+                >
+                  Support & Help
+                </h2>
+
+                <ul class="list-unstyled mt-3">
+                  <li class="font-20 text-dark-grean font-15">
+                    <a
+                      href=""
+                      class="nav-footer-link text-dark-grean text-decoration-none"
+                      >FaQ</a
+                    >
+                  </li>
+                  <li class="font-20 text-dark-grean font-15">
+                    <a
+                      href=""
+                      class="nav-footer-link text-dark-grean text-decoration-none"
+                      >Terms & Conditions</a
+                    >
+                  </li>
+                  <li class="font-20 text-dark-grean font-15">
+                    <a
+                      href=""
+                      class="nav-footer-link text-dark-grean text-decoration-none"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div>
+                <h2
+                  class="fw-bold font-24 text-dark-grean footer-border font-15"
+                >
+                  Follow us on social media
+                </h2>
+
+                <ul
+                  class="list-unstyled d-flex align-items-center gap-4 justify-content-center mt-4"
+                >
+                  <li class="font-20 text-dark-grean">
+                    <a href=""
+                      ><i
+                        class="fa-brands fa-square-facebook fs-2 nav-footer-link text-dark-grean"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="font-20 text-dark-grean">
+                    <a href=""
+                      ><i
+                        class="fa-brands fa-instagram fs-2 nav-footer-link text-dark-grean"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="font-20 text-dark-grean">
+                    <a href=""
+                      ><i
+                        class="fa-brands fa-x-twitter fs-2 nav-footer-link text-dark-grean"
+                      ></i
+                    ></a>
+                  </li>
+                  <li class="font-20 text-dark-grean">
+                    <a href=""
+                      ><i
+                        class="fa-brands fa-linkedin fs-2 nav-footer-link text-dark-grean"
+                      ></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

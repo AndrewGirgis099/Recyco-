@@ -1,0 +1,200 @@
+@media only screen and (max-width: 1160px) {
+    .font-sm-20{
+        font-size: 14px !important;
+        width: 75% ;
+
+    }
+    .Add-to-cart-btn{
+        width: 100%;
+        left: 0%;
+        margin:0px 0px !important;
+    }
+    .video-btn{
+        bottom: 10%;
+      }
+
+      .register {
+        background: #5AAC1C;
+        border-radius: 60% / 10%;
+        transform: translateY(-8%) !important;
+        transition: .8s ease-in-out;
+      }
+      #chk:checked ~ .register {
+        transform: translateY(-65%) !important;
+      }
+      #chk:checked ~ .register label {
+        transform: scale(1);
+        margin: 0 !important;
+      }
+      
+      #chk:checked ~ .login label {
+        transform: scale(.6);
+        margin: 0 !important;
+      }   
+      
+      
+  }
+@media only screen and (max-width: 996px) {
+    .font-sm-20{
+        font-size: 12px !important;
+        width: 90% ;
+    }
+    .mobile-nav{
+        display: block !important;
+    }
+    .screan-nav{
+        display: none !important;
+    }
+    .Victor-img{
+        width: 65px;
+        height: 65px;
+    }
+    .Victor-img-border{
+        border: 5px solid var(--light-grean-overlay);
+        border-radius: 50%;
+    }
+    .logo{
+        width: 70px ;
+    }
+    .font-32-sm{
+        font-size: 16px !important;
+      }
+
+      .font-16-sm{
+        font-size: 16px !important ;
+      }
+
+      .register {
+        background: #5AAC1C;
+        border-radius: 60% / 10%;
+        transform: translateY(-6%) !important;
+        transition: .8s ease-in-out;
+      }
+      #chk:checked ~ .register {
+        transform: translateY(-65%) !important;
+      }
+      #chk:checked ~ .register label {
+        transform: scale(1);
+        margin: 0 !important;
+      }
+      
+      #chk:checked ~ .login label {
+        transform: scale(.6);
+        margin: 0 !important;
+      }   
+
+   
+  }
+@media only screen and (max-width: 767px) {
+    .font-sm-20{
+        font-size: 8px !important;
+    }
+    .line-hight{
+        line-height: 10px;
+    }
+    .font-32-sm{
+        font-size: 24px;
+      }
+
+      .font-16{
+        font-size: 16px !important;
+      }
+      .font-16-sm{
+        font-size: 16px !important;
+      }
+
+      .form{
+        width: 90% !important;
+        margin: auto;
+      }
+
+      .cart-img{
+        width: 200px !important;
+        margin: auto;
+      }
+      .car-img-container{
+        display: flex;
+        justify-content: center;
+      }
+      .register {
+        background: #5AAC1C;
+        border-radius: 60% / 10%;
+        transform: translateY(-5%) !important;
+        transition: .8s ease-in-out;
+      }
+      #chk:checked ~ .register {
+        transform: translateY(-65%) !important;
+      }
+      #chk:checked ~ .register label {
+        transform: scale(1);
+        margin: 0 !important;
+      }
+      
+      #chk:checked ~ .login label {
+        transform: scale(.6);
+        margin: 0 !important;
+      }  
+     
+  }
+ 
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    html{
+        overflow-x: hidden !important;
+    }
+    .home-p{
+        display: none;
+    }
+
+    .left-footer{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .font-15{
+        font-size: 15px;
+    }
+    .footer{
+        width: 95% !important;
+    }
+    .profile04{
+        display: flex;
+        flex-direction: column;
+      }
+
+      .rate-vid{
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: start !important;
+      }
+      .main{
+        width: 100% !important;
+      }
+
+      .register {
+        background: #5AAC1C;
+        border-radius: 60% / 10%;
+        transform: translateY(35%) !important;
+        transition: .8s ease-in-out;
+      }
+      #chk:checked ~ .register {
+        transform: translateY(-65%) !important;
+      }
+      #chk:checked ~ .register label {
+        transform: scale(1);
+        margin: 0 !important;
+      }
+      
+      #chk:checked ~ .login label {
+        transform: scale(.6);
+        margin: 0 !important;
+      }  
+
+      .login-form {
+       width: 300px !important;
+       margin: auto !important;
+      }
+  }
